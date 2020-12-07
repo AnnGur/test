@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-12-07T18:46:26.267Z",
+        "before": [
+          {
+            "result": {
+              "duration": 655774000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cleverbot.MyStepdefs.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User signs up, gets verified and chats with the bot",
+        "description": "",
+        "id": "user-creates-account-at-cleverbot-and-interacts-with-chatbot;user-signs-up--gets-verified-and-chats-with-the-bot",
+        "after": [
+          {
+            "result": {
+              "duration": 52000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Cleverbot.MyStepdefs.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 848985000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User navigates to landing page",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.navigateToLandingPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 821743000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "A User clicks sign in link",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userOpensSignInPanel()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1519080000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "A User enters valid sign up data",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userEntersValidSignUpData()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 544501000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User sign up notification is displayed",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userSignUpNotificationCheck()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 557094000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "A User receives registration e-mail",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userChecksMailBox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 276331000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "A User navigates e-mail verification link",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userNavigatesVerificationLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689974000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "E-mail verification is successful",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userIsSuccessfullyVerified()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 353638000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User signs in with valid email and password",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.userSignIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1039579000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Accepts policies",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.acceptRisks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160428000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User sends \"Please, work!\" message to the bot",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Please, work!",
+                  "offset": 12
+                }
+              ],
+              "location": "Cleverbot.MyStepdefs.sendMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 29581000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Bot replies",
+            "match": {
+              "location": "Cleverbot.MyStepdefs.checkBotReply()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@positive"
+          }
+        ]
+      }
+    ],
+    "name": "User creates account at Cleverbot and interacts with chatbot",
+    "description": "",
+    "id": "user-creates-account-at-cleverbot-and-interacts-with-chatbot",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/CleverbotChatsSmoke.feature",
+    "tags": [
+      {
+        "name": "@positive",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

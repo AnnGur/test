@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User creates account at Cleverbot and interacts with chatbot" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-12-07T18:46:26" hostname="anna-HP-ProBook-450-G6" time="7.614">
+  <properties/>
+  <testcase name="User signs up, gets verified and chats with the bot" classname="User creates account at Cleverbot and interacts with chatbot" time="7.614"/>
+  <system-out><![CDATA[
+@positive
+Scenario: User signs up, gets verified and chats with the bot ?[90m# src/test/resources/features/CleverbotChatsSmoke.feature:5?[0m
+  ?[32mGiven ?[0m?[32mUser navigates to landing page?[0m                        ?[90m# Cleverbot.MyStepdefs.navigateToLandingPage()?[0m
+  ?[32mWhen ?[0m?[32mA User clicks sign in link?[0m                             ?[90m# Cleverbot.MyStepdefs.userOpensSignInPanel()?[0m
+Available domain names: ["@mailkept.com","@promail1.net","@rcmails.com","@relxv.com"]
+Domain to be used for temp e-mails generation: @promail1.net
+MD5 hash for mljvuptamv@promail1.net is generated: bbef99cfca3c8ea15082148297ab8bdb
+Sign up a user with following credentials: 
+email: mljvuptamv@promail1.net
+ username: username_nLPzs
+ full name: fullName_rsDeE
+password: gBOiEilp
+md5 hash: bbef99cfca3c8ea15082148297ab8bdb
+  ?[32mAnd ?[0m?[32mA User enters valid sign up data?[0m                        ?[90m# Cleverbot.MyStepdefs.userEntersValidSignUpData()?[0m
+  ?[32mThen ?[0m?[32mUser sign up notification is displayed?[0m                 ?[90m# Cleverbot.MyStepdefs.userSignUpNotificationCheck()?[0m
+MD5 hash for mljvuptamv@promail1.net is generated: bbef99cfca3c8ea15082148297ab8bdb
+response.body().string(): [{"_id":{"oid":"5fce788606f4a40074f3b859"},"createdAt":{"milliseconds":1607366790838},"mail_id":"10b5fa2d420788714d5eb4b74432f061","mail_address_id":"bbef99cfca3c8ea15082148297ab8bdb","mail_from":"info@cleverbot.com","mail_subject":"Welcome to Cleverbot","mail_preview":"...","mail_text_only":"<style type=\"text/css\">body {margin: 0; padding: 0; background: #b8d2ef; font-family: Tahoma, Arial, serif; font-size: 14px; color: black;}\n#outer {background: #b8d2ef; width:100%;}#topline {background: #3a9cf2 url(http://www.cleverbot.com/s/social/img/about_icon.jpg) top left no-repeat; height:30px; width:100%;}\n#emailmenu {height:30px; width:585px; margin:auto;}\n#emailmenu span {background: #bbddf9; color:#3a9cf2; float: right; height: 30px; padding: 0 20px; font-weight: bold; font-size: 14px; line-height: 2em;}\n#inner {background: white; width: 585px; margin: 0 auto; padding:0 0 30px 0; border-top: 20px solid #e7eef9;}h3, h4, p {margin:0; padding: 20px 30px 0 30px; clear: both;}\nh4 {padding-top: 20px;}p.userorsnip {border-bottom: 1px solid #eaeff9; min-height: 90px;}\np img {float: left; margin-right: 10px; width:90px; height:90px;}a {text-decoration: none; color: #3a9cf2;}\na > b {color: #000000;}p.unsubscribe {width: 585px; margin: 0 auto; padding: 30px 10px; font-size: 80%;}</style><div id=\"outer\"><div id=\"topline\"><div id=\"emailmenu\"><span>email</span></div></div><div id=\"inner\"><h3>Welcome fullName_rsDeE!</h3>\n\n<p>Thank you for signing up to Cleverbot. Your username is <b>username_nLPzs</b>. Please click this link, or paste the URL into your browser, to verify your account and sign in:\n<p><a href=\"http://www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4\">www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4</a>\n\n<p>Have fun talking, following, tweaking and snipping!<p>\nClev\n\n</div></div>\n","mail_text":null,"mail_html":"<style type=\"text/css\">body {margin: 0; padding: 0; background: #b8d2ef; font-family: Tahoma, Arial, serif; font-size: 14px; color: black;}\n#outer {background: #b8d2ef; width:100%;}#topline {background: #3a9cf2 url(http://www.cleverbot.com/s/social/img/about_icon.jpg) top left no-repeat; height:30px; width:100%;}\n#emailmenu {height:30px; width:585px; margin:auto;}\n#emailmenu span {background: #bbddf9; color:#3a9cf2; float: right; height: 30px; padding: 0 20px; font-weight: bold; font-size: 14px; line-height: 2em;}\n#inner {background: white; width: 585px; margin: 0 auto; padding:0 0 30px 0; border-top: 20px solid #e7eef9;}h3, h4, p {margin:0; padding: 20px 30px 0 30px; clear: both;}\nh4 {padding-top: 20px;}p.userorsnip {border-bottom: 1px solid #eaeff9; min-height: 90px;}\np img {float: left; margin-right: 10px; width:90px; height:90px;}a {text-decoration: none; color: #3a9cf2;}\na > b {color: #000000;}p.unsubscribe {width: 585px; margin: 0 auto; padding: 30px 10px; font-size: 80%;}</style><div id=\"outer\"><div id=\"topline\"><div id=\"emailmenu\"><span>email</span></div></div><div id=\"inner\"><h3>Welcome fullName_rsDeE!</h3>\n\n<p>Thank you for signing up to Cleverbot. Your username is <b>username_nLPzs</b>. Please click this link, or paste the URL into your browser, to verify your account and sign in:\n<p><a href=\"http://www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4\">www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4</a>\n\n<p>Have fun talking, following, tweaking and snipping!<p>\nClev\n\n</div></div>\n","mail_timestamp":1607366790.836,"mail_attachments_count":0,"mail_attachments":{"attachment":[]}}]
+mailHtml: <style type="text/css">body {margin: 0; padding: 0; background: #b8d2ef; font-family: Tahoma, Arial, serif; font-size: 14px; color: black;}
+#outer {background: #b8d2ef; width:100%;}#topline {background: #3a9cf2 url(http://www.cleverbot.com/s/social/img/about_icon.jpg) top left no-repeat; height:30px; width:100%;}
+#emailmenu {height:30px; width:585px; margin:auto;}
+#emailmenu span {background: #bbddf9; color:#3a9cf2; float: right; height: 30px; padding: 0 20px; font-weight: bold; font-size: 14px; line-height: 2em;}
+#inner {background: white; width: 585px; margin: 0 auto; padding:0 0 30px 0; border-top: 20px solid #e7eef9;}h3, h4, p {margin:0; padding: 20px 30px 0 30px; clear: both;}
+h4 {padding-top: 20px;}p.userorsnip {border-bottom: 1px solid #eaeff9; min-height: 90px;}
+p img {float: left; margin-right: 10px; width:90px; height:90px;}a {text-decoration: none; color: #3a9cf2;}
+a > b {color: #000000;}p.unsubscribe {width: 585px; margin: 0 auto; padding: 30px 10px; font-size: 80%;}</style><div id="outer"><div id="topline"><div id="emailmenu"><span>email</span></div></div><div id="inner"><h3>Welcome fullName_rsDeE!</h3>
+
+<p>Thank you for signing up to Cleverbot. Your username is <b>username_nLPzs</b>. Please click this link, or paste the URL into your browser, to verify your account and sign in:
+<p><a href="http://www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4">www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4</a>
+
+<p>Have fun talking, following, tweaking and snipping!<p>
+Clev
+
+</div></div>
+
+  ?[32mWhen ?[0m?[32mA User receives registration e-mail?[0m                    ?[90m# Cleverbot.MyStepdefs.userChecksMailBox()?[0m
+Verification link parsed: http://www.cleverbot.com/mz/sv/330106/5fcfb20fc5c4
+  ?[32mAnd ?[0m?[32mA User navigates e-mail verification link?[0m               ?[90m# Cleverbot.MyStepdefs.userNavigatesVerificationLink()?[0m
+  ?[32mThen ?[0m?[32mE-mail verification is successful?[0m                      ?[90m# Cleverbot.MyStepdefs.userIsSuccessfullyVerified()?[0m
+  ?[32mWhen ?[0m?[32mUser signs in with valid email and password?[0m            ?[90m# Cleverbot.MyStepdefs.userSignIn()?[0m
+  ?[32mAnd ?[0m?[32mAccepts policies?[0m                                        ?[90m# Cleverbot.MyStepdefs.acceptRisks()?[0m
+Send following message to the bot: Please, work!
+  ?[32mAnd ?[0m?[32mUser sends "?[0m?[32m?[1mPlease, work!?[0m?[32m" message to the bot?[0m           ?[90m# Cleverbot.MyStepdefs.sendMessage(java.lang.String)?[0m
+Bot replies with:  
+  ?[32mThen ?[0m?[32mBot replies?[0m                                            ?[90m# Cleverbot.MyStepdefs.checkBotReply()?[0m
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 84.0.4147.30 (48b3e868b4cc0aa7e8149519690b6f6949e110a8-refs/branch-heads/4147@{#310}) on port 14756
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 07, 2020 8:46:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

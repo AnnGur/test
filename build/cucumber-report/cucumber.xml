@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="7.616">
+    <testcase classname="User creates account at Cleverbot and interacts with chatbot" name="User signs up, gets verified and chats with the bot" time="7.548">
+        <system-out>
+            <![CDATA[Given User navigates to landing page........................................passed
+When A User clicks sign in link.............................................passed
+And A User enters valid sign up data........................................passed
+Then User sign up notification is displayed.................................passed
+When A User receives registration e-mail....................................passed
+And A User navigates e-mail verification link...............................passed
+Then E-mail verification is successful......................................passed
+When User signs in with valid email and password............................passed
+And Accepts policies........................................................passed
+And User sends "Please, work!" message to the bot...........................passed
+Then Bot replies............................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
